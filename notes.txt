@@ -1,0 +1,20 @@
+to set big_block
+https://hyperevm-block-toggle.vercel.app/
+
+
+weighted pool
+https://www.hyperscan.com/tx/0xf0982e39a0a21d3a302aad74a4e1ad5fcc90e06534fcd023438e55ea50b06b0a
+
+pool: 0xb537c62307D25F1eb70b720F5850B8C638240F1B
+
+stable pool
+https://www.hyperscan.com/tx/0x391f28c2ad50553aad753c117564db04d3206a9dc6a6e56288e745bd43269c22
+
+pool: 0x278E31550A3708fb20A7A33bEd0CEcE79FE7ac00
+
+
+# To swap TOKEN A for TOKEN B
+python swap_script.py --token_in TOKEN_A --amount 0.1 --min_amount_out 0 --use_permit2
+
+# To swap TOKEN B for TOKEN A
+python swap_script.py --token_in TOKEN_B --amount 3.2 --min_amount_out 0.001 --use_permit2
